@@ -1,0 +1,37 @@
+@media (max-width:1200px) {
+    .top-header-navigation{
+        display:none !important;
+    }   
+    
+    .new-header-navigation{
+        display:block !important;
+        padding-top: 0 !important;
+    }   
+}
+
+@media (max-width:899px) {
+    
+        .pinterest-header, .facebook-header, .twitter-header, linkedin2-header {
+	display: none;
+}
+    
+    .header-wrapping-nav {
+	display: none;
+}
+    
+          .new-header-navigation{
+        display:none !important;
+        padding-top: 0 !important;
+    }   
+	.divider {
+		border-left:none;
+	}
+	.right-column-content {
+		padding-left:15px;
+	}
+}
+@media (max-width:799px) {
+	.slider-wrapper {
+		width:100%;
+	}
+}

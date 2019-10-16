@@ -1,0 +1,102 @@
+/* commom style for all browsers */
+
+
+
+
+.menu4 {
+text-align:left; font-family: verdana, sans-serif; position:relative; font-size:0.85em; background:transparent; width:798px; height:26px; margin:0 auto;
+}
+.menu4 ul {
+padding:0; margin:0; list-style-type: none; 
+}
+.menu4 ul li {
+float:left; position:relative; margin:0; padding:0; list-style-type: none;
+}
+.menu4 ul li.home {width:99px;}
+.menu4 ul li.about {width:100px;}
+.menu4 ul li.issues {width:90px;}
+.menu4 ul li.successes {width:99px;}
+.menu4 ul li.join {width:89px;}
+.menu4 ul li.senators {width:100px;}
+.menu4 ul li.congressmen {width:121px;}
+.menu4 ul li.contact {width:100px;}
+
+.menu4 ul li.subabout {}
+
+
+
+
+
+
+
+
+
+
+.menu4 ul li a, .menu4 ul li a:visited {
+display:block; text-decoration:none; width:70px; height:26px; color:#000; padding-left:0px; line-height:26px;
+}
+* html .menu4 ul li a, .menu4 ul li a:visited {
+width:100px; w\idth:70px;
+}
+
+.menu4 ul li ul {
+visibility:hidden; position:absolute; top:0; left:0; height:0; overflow:hidden;
+}
+table {
+margin:-1px; border-collapse:collapse; font-size:1em;
+}
+
+/* fist line style for IE7 and non-IE browsers and the second line for IE5.5 and IE6 */
+.menu4 ul li:hover a,
+.menu4 ul li a:hover {
+color:#c00; text-decoration:underline; border:0;
+}
+
+/* This is where the drop down menuis made visable */
+.menu4 ul li:hover ul,
+.menu4 ul li a:hover ul {
+visibility:visible; width:110px; height:auto; position:absolute; top:26px; left:0; background:#ccc; border:1px solid #999; overflow:visible; 
+}
+.menu4 ul li:hover ul li a,
+.menu4 ul li a:hover ul li a {
+display:block; background:transparent; text-decoration:none; color:#c00; height:auto; line-height:1.5em; padding:0 0 0 4px; width:100px; w\idth:100px;
+}
+
+/*
+.menu4 ul li:hover ul li a.drop,
+.menu4 ul li a:hover ul li a.drop {
+display:block; color:#000; height:auto; line-height:1.5em; padding:0; width:180px; w\idth:180px;
+}
+.menu4 ul li:hover ul li ul,
+.menu4 ul li a:hover ul li a ul {
+visibility:hidden; position:absolute; top:0; left:0; height:0; overflow:hidden;
+}
+
+*/
+
+/* This one sets the drop down menu text style */
+.menu4 ul li:hover ul li a:hover,
+.menu4 ul li a:hover ul li a:hover {
+color:#000; text-decoration:underline;
+}
+
+/*
+.menu4 ul li:hover ul li:hover ul,
+.menu4 ul li a:hover ul li a:hover ul {
+visibility:visible; position:absolute; top:0; color:#ccc; left:166px; height:auto; border:1px solid #909;
+}
+.menu4 ul li:hover ul li:hover ul.left,
+.menu4 ul li a:hover ul li a:hover ul.left {
+left:-1px;
+}
+.menu4 ul li:hover ul li:hover ul li a,
+.menu4 ul li a:hover ul li a:hover ul li a {
+display:block; color:#000; height:auto; line-height:1.5em; padding:0; width:180px; w\idth:180px;
+}
+* html .menu4 ul li a:hover ul li a:hover ul li a {padding:0;}
+
+.menu4 ul li:hover ul li:hover ul li:hover a,
+.menu4 ul li a:hover ul li a:hover ul li a:hover {
+color:#fff; text-decoration:underline;
+}
+*/
